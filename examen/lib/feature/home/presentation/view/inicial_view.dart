@@ -10,9 +10,9 @@ class inicial extends StatelessWidget {
     return Scaffold(
       body: Stack(
         fit: StackFit.expand,
-        children: [
-          Image.asset(
-            'assets/images/fondo_hotel.jpg',
+        children: [ 
+          Image.network(
+            'https://cdn.pixabay.com/photo/2013/03/11/17/18/hotel-92613_640.jpg',
             fit: BoxFit.cover,
           ),
           Center(
@@ -31,6 +31,7 @@ class inicial extends StatelessWidget {
                 ),
                 const SizedBox(height: 30),
                 ElevatedButton(
+                  
                   onPressed: () {
                     
                   },
