@@ -13,6 +13,7 @@ class carga extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             CircularProgressIndicator(),
+            SizedBox(height: 20),
             Text('cargando', style: TextStyle(fontSize: 18))
           ],
         ),

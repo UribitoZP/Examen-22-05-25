@@ -11,8 +11,7 @@ class inicial extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [ 
-          Image.network(
-            'https://cdn.pixabay.com/photo/2013/03/11/17/18/hotel-92613_640.jpg',
+          Image.network('https://cdn.pixabay.com/photo/2020/06/20/18/10/naklua-5321928_960_720.jpg',
             fit: BoxFit.cover,
           ),
           Center(
