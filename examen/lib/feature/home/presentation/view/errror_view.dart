@@ -10,8 +10,15 @@ class errror extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Text('error')
+            SizedBox(
+              height: 100,
+              width: 100,
+              child:
+              Image.network('https://cdn0.iconfinder.com/data/icons/shift-free/32/Error-512.png',fit: BoxFit.cover,)),
+            SizedBox(height: 20),
+            Text('ERROR AL ACCEDER' )
           ],
         ),
       ),
