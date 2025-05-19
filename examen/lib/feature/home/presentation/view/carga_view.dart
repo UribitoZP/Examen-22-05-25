@@ -10,8 +10,10 @@ class carga extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Text('carga')
+            CircularProgressIndicator(),
+            Text('cargando', style: TextStyle(fontSize: 18))
           ],
         ),
       ),
