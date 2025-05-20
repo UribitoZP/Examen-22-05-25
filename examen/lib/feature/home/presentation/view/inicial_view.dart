@@ -1,7 +1,9 @@
+import 'package:examen/feature/home/presentation/bloc/home_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
-class inicial extends StatelessWidget {
-  const inicial({
+class Inicial extends StatelessWidget {
+  const Inicial({
     super.key,
   });
 
@@ -32,7 +34,8 @@ class inicial extends StatelessWidget {
                 ElevatedButton(
                   
                   onPressed: () {
-                    
+                    final homeBloc = BlocProvider.of<HomeBloc>(context);
+                homeBloc.add(HomeSearchPressed());
                   },
                   child: Text('Entrar'),
                 ),

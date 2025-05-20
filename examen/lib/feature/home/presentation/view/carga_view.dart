@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class carga extends StatelessWidget {
-  const carga({
+class Carga extends StatelessWidget {
+  const Carga({
     super.key,
   });
 
