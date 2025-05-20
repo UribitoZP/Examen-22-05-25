@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class errror extends StatelessWidget {
-  const errror({
+class Errror extends StatelessWidget {
+  const Errror({
     super.key,
   });
 
