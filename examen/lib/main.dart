@@ -17,6 +17,7 @@ class Myapp extends StatelessWidget {
     return BlocProvider(
       create: (context) => HomeBloc(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: BlocBuilder<HomeBloc, HomeState>(
           builder: (context, state) {
             if (state is HomeLoadSuccess){
